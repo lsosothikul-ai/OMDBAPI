@@ -1,0 +1,14 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+.joke {
+    margin: 100px;
+    padding: 50px;
+    width: 600px;
+    display:block;
+    border: solid 1px white;
+    text-align: center;
+    color: white;
+}
