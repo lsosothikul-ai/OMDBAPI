@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel = "stylesheet" type = "text/css" href = "style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>OMDB Search</title>
+    <link rel="stylesheet" href="movie.css" />
 </head>
 <body>
-    <div class = "joke">
-        <h1> Disney Character Fetcher</h1>
-         <input type="text" id="characterName" placeholder="type a Disney character"/>
-        <button onclick = "getJoke()"> Gimme a Disney character</button>
-        <image id = "jokeHolder" style = "width:200px; height:200px;"> </image>
-    </div>
-    <script src = "script.js">
 
-    </script>
+    <h1>Open Movie Database Search</h1>
+    <hr />
+    <input type="text" id="search" /> 
+    <button onclick="getMovies()">Search OMDB</button>
+    <hr>
+    <p id="movieHolder" class="card-wrapper"></p>
+    
+
+    <script src="script.js"></script>
 </body>
 </html>
